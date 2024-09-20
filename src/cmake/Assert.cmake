@@ -1,0 +1,5 @@
+function(assert_env_var var)
+  if(NOT DEFINED ENV{${var}})
+    message(FATAL_ERROR "Environment variable '${var}' is not defined.")
+  endif()
+endfunction()

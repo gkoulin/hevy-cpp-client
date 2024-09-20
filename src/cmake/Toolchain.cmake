@@ -1,0 +1,5 @@
+add_library(toolchain INTERFACE)
+target_compile_features(toolchain INTERFACE cxx_std_23)
+if(MSVC)
+  target_compile_definitions(toolchain INTERFACE "-D_CRT_SECURE_NO_WARNINGS" "-DNOMINMAX")
+endif()
