@@ -1,0 +1,35 @@
+{
+  "page": 1,
+  "page_count": 126,
+  "workouts": [
+    {
+      "created_at": "2024-09-18T12:20:30.816Z",
+      "description": "",
+      "end_time": "2024-09-18T12:20:30+00:00",
+      "exercises": [
+        {
+          "exercise_template_id": "B74A95BB",
+          "index": 0,
+          "notes": "",
+          "sets": [
+            {
+              "distance_meters": 0.0,
+              "duration_seconds": 0.0,
+              "index": 0,
+              "reps": 15,
+              "rpe": 0.0,
+              "set_type": "normal",
+              "weight_kg": 0.0
+            }
+          ],
+          "superset_id": 0,
+          "title": "Kneeling Push Up"
+        }
+      ],
+      "id": "29a16742-e243-455e-b8e9-9cab4e7af622",
+      "start_time": "2024-09-18T11:23:18+00:00",
+      "title": "Upper Body",
+      "updated_at": "2024-09-20T13:04:30.345Z"
+    }
+  ]
+}
